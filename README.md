@@ -15,3 +15,29 @@ test almundo
 - npm install
 - npm start
 
+
+## REST API
+### GET
+- http://localhost:8081/hotels
+- http://localhost:8081/:id
+- http://localhost:8081
+### POST
+- http://localhost:8081
+### PUT
+- http://localhost:8081/:id
+### DELETE
+- http://localhost:8081/:id
+
+## Data Structure
+
+```js
+    {
+      name: '',
+      stars: 0,
+      price: 00.00,
+      image: '',
+      amenities: []
+    }
+
+```
+
